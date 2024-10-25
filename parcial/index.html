@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrazqueria</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@400;700&display=swap" rel="stylesheet"> <!-- Agrega esta línea -->
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="paginasweb/menu.html">menú</a></li>
+                <li><a href="paginasweb/presentacion.html">presentación</a></li>
+                <li><a href="paginasweb/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <section class="hero">
+        <div class="carousel">
+            <div class="carousel-images">
+                <div class="carousel-image">
+                    <img src="img/carrosel.jpeg" alt="Imagen 1">
+                </div>
+                <div class="carousel-image">
+                    <img src="img/carrosel2.jpeg" alt="Imagen 2">
+                </div>
+                <div class="carousel-image">
+                    <img src="img/carrousel3.jpg" alt="Imagen 2">
+                </div>
+            </div>
+            <div class="hero-text">
+                <h1 class="titulo">Bienvenido a Casa Churrazco</h1>
+            </div>
+        </div>
+    </section>
+    <section id="productos">
+        <center><h2>Nuestro Menú</h2></center>
+        <div class="productos-container">
+            <div class="productos-item">
+                <img src="productoventa/entrecot.jpeg" alt="Proyecto 1">
+                <figcaption>
+                    <p>churrasco corte entrecot</p>
+                    <p>Precio 300 bs.</p>
+                    <div class="buttons">
+                        <button onclick="window.location.href='paginasweb/detalle1.html'" class="details-btn">Detalles</button> <!-- Actualizado -->
+                    </div>
+                </figcaption>
+            </div>
+            <div class="productos-item">
+                <img src="productoventa/lomo.jpeg" alt="Proyecto 2">
+                <figcaption>
+                    <p>churrasco corte de lomo</p>
+                    <p>Precio 300 bs.</p>
+                    <div class="buttons">
+                        <button onclick="window.location.href='paginasweb/detalle2.html'" class="details-btn">Detalles</button> <!-- Actualizado -->
+                    </div>
+                </figcaption>
+            </div>
+            <div class="productos-item">
+                <img src="productoventa/picanha.jpeg" alt="Proyecto 3">
+                <figcaption>
+                    <p>churrasco corte picanha</p>
+                    <p>Precio 2300 bs.</p>
+                    <div class="buttons">
+                        <button onclick="window.location.href='paginasweb/detalle3.html'" class="details-btn">Detalles</button> <!-- Actualizado -->
+                    </div>
+                </figcaption>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 casa churrasco. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
